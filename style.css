@@ -1,0 +1,54 @@
+nav {
+    background-color: white;
+}
+.head {
+    display: flex;
+    background-color: #eeebebfb;
+}
+.container-fluid {
+    width: 750px;
+    margin-left: 100px;
+}
+  img {
+    margin-right: 100px;
+
+ }
+ .container-fluid h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    margin-top: 300px;
+    margin-left: 20px;
+ }
+ button {
+    width: 130px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: red;
+    border-radius: 5px;
+ }
+ a:hover {
+    background-color: hsl(4, 74%, 70%);
+  }
+ h2 {
+    margin-left: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .card-text {
+    color: red;
+ }
+ .col-lg-4 img:hover {
+   transform: translate(5px , 5px);
+
+ }
+ .col-lg-4 {
+    transition: all 0.5s ease;
+ }
+.col-md-4 {
+   justify-content: space-between;
+   
+}
+ 
+.col-md-3 img {
+   margin-bottom: 40px;
+}
